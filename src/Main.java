@@ -4,5 +4,6 @@ public class Main {
         SalesManager box = new SalesManager(sales);
         box.max();
         System.out.println(box.max());
+        System.out.println(box.cutAverage());
     }
 }
